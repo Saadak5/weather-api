@@ -48,3 +48,28 @@ button {
 button:hover {
     background: black;
 }
+
+#temp p{
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+#info {
+    font-size: 20px;
+}
+
+#icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    display: none;
+}
+
+#forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
