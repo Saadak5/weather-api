@@ -21,3 +21,7 @@ function getWeather() {
         });
 
 }
+
+function presentWeather(data) {
+    
+}
