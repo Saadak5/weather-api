@@ -7,4 +7,17 @@ function getWeather() {
         alert('Note: Enter a city');
         return;
     }
+
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            presentWeather(data);
+        })
+        .catch(error => {
+            console.error('Error fetching weather data:', error);
+            alert('Error fetching current weather data, try again please.');
+        });
+
 }
