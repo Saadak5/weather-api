@@ -23,3 +23,12 @@ h2, label, p {
     color: white;
     margin: 12px 0;
 }
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
