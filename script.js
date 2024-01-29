@@ -33,6 +33,9 @@ function presentWeather(data) {
     if (data.cod === '404') {
         infoDiv.innerHTML = `<p>${data.message}</p>`;
     } else {
+        const cityName = data.name;
+        const temperature = Math.round(data.main.temp - 273.15);
+        const desc = data.weather[0].description;
         
     }
 }
