@@ -66,10 +66,3 @@ button:hover {
     display: none;
 }
 
-#forecast {
-    margin-top: 50px;
-    overflow-x: auto;
-    white-space: nowrap;
-    display: flex;
-    justify-content: space-between;
-}
