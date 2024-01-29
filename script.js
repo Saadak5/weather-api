@@ -43,6 +43,9 @@ function presentWeather(data) {
         
         const weatherHTML = `<p>${cityName}</p>
         <p>${desc}</p>`;
+
+        tempDiv.innerHTML = temperatureHTML;
+        infoDiv.innerHTML = weatherHTML;
         
 
     }
