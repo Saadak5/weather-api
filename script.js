@@ -46,12 +46,14 @@ function presentWeather(data) {
 
         tempDiv.innerHTML = temperatureHTML;
         infoDiv.innerHTML = weatherHTML;
-        
+        iconDiv.src = iconUrl;
+        iconDiv.src = desc;
 
+        showIcon();
     }
 }
 
 function showIcon() {
-    const weatherIcon = document.getElementById('icon');
+    const iconDiv = document.getElementById('icon');
     weatherIcon.style.display = 'block';
 }
