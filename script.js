@@ -36,6 +36,8 @@ function presentWeather(data) {
         const cityName = data.name;
         const temperature = Math.round(data.main.temp - 273.15);
         const desc = data.weather[0].description;
+        const iconId = data.weather[0].icon;
+        const iconUrl = `https://openweathermap.org/img/wn/${iconId}@4x.png`;
         
     }
 }
