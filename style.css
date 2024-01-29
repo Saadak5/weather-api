@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(237, 181, 132);
+    background-color: rgb(255, 173, 101);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.194);
     max-width: 400px;
     padding: 22px;
     border-radius: 18px;
@@ -34,7 +34,7 @@ input {
 }
 
 button {
-    background-color: rgb(231, 173, 115);
+    background-color: rgb(231, 139, 58);
     color: white;
     padding: 10px;
     border: none;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background: black;
+    background: rgb(255, 210, 169);
 }
 
 #temp p{
