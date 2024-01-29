@@ -39,5 +39,11 @@ function presentWeather(data) {
         const iconId = data.weather[0].icon;
         const iconUrl = `https://openweathermap.org/img/wn/${iconId}@4x.png`;
         
+        const temperatureHTML = `<p>${temperature}°C</p>`;
+        
+        const weatherHTML = `<p>${cityName}</p>
+        <p>${desc}</p>`;
+        
+
     }
 }
