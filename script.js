@@ -47,7 +47,7 @@ function presentWeather(data) {
         tempDiv.innerHTML = temperatureHTML;
         infoDiv.innerHTML = weatherHTML;
         iconDiv.src = iconUrl;
-        iconDiv.src = desc;
+        
 
         showIcon();
     }
@@ -55,5 +55,5 @@ function presentWeather(data) {
 
 function showIcon() {
     const iconDiv = document.getElementById('icon');
-    weatherIcon.style.display = 'block';
+    iconDiv.style.display = 'block';
 }
