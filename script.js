@@ -29,4 +29,10 @@ function presentWeather(data) {
 
     tempDiv.innerHTML = '';
     infoDiv.innerHTML = '';
+
+    if (data.cod === '404') {
+        infoDiv.innerHTML = `<p>${data.message}</p>`;
+    } else {
+        
+    }
 }
