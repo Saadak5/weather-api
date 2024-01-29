@@ -23,5 +23,7 @@ function getWeather() {
 }
 
 function presentWeather(data) {
-    
+    const tempDiv = document.getElementById('temp');
+    const infoDiv = document.getElementById('info');
+    const iconDiv = document.getElementById('icon');
 }
