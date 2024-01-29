@@ -50,3 +50,8 @@ function presentWeather(data) {
 
     }
 }
+
+function showIcon() {
+    const weatherIcon = document.getElementById('icon');
+    weatherIcon.style.display = 'block';
+}
